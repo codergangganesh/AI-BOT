@@ -44,6 +44,7 @@ This project demonstrates the power of web-based voice technologies and provides
 - **⚙️ Application Opener**: Launches system applications (Calculator, WhatsApp, Gmail)
 - **🔍 Web Search**: Searches Google for queries not directly recognized
 - **👋 Contextual Greetings**: Greets users differently based on time of day (Morning, Afternoon, Evening)
+- **💬 FRT Hi**: Fast Response Technology that provides instant greeting responses with personalized user interaction
 
 ## 🚀 Getting Started
 
