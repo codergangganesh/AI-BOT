@@ -11,14 +11,14 @@
 An interactive voice-enabled virtual assistant built with HTML, CSS, and JavaScript that responds to voice commands and provides spoken feedback.
 
 <p align="center">
-  <a href="LICENSE">
-    <img src="https://img.shields.io/github/license/codergangganesh/DLCO-project_1-lee-AI-Bot" alt="GitHub">
+  <a href="https://github.com/codergangganesh/AI-BOT.git">
+    <img src="https://img.shields.io/github/license/codergangganesh/AI-BOT" alt="GitHub">
   </a>
-  <a href="https://github.com/codergangganesh/DLCO-project_1-lee-AI-Bot/stargazers">
-    <img src="https://img.shields.io/github/stars/codergangganesh/DLCO-project_1-lee-AI-Bot" alt="GitHub stars">
+  <a href="https://github.com/codergangganesh/AI-BOT.git/stargazers">
+    <img src="https://img.shields.io/github/stars/codergangganesh/AI-BOT.git" alt="GitHub stars">
   </a>
-  <a href="https://github.com/codergangganesh/DLCO-project_1-lee-AI-Bot/issues">
-    <img src="https://img.shields.io/github/issues/codergangganesh/DLCO-project_1-lee-AI-Bot" alt="GitHub issues">
+  <a href="https://github.com/codergangganesh/AI-BOT.git/issues">
+    <img src="https://img.shields.io/github/issues/codergangganesh/AI-BOT.git" alt="GitHub issues">
   </a>
 </p>
 
@@ -63,11 +63,11 @@ Simply open `index.html` in your browser to start using the assistant immediatel
 1. **Direct Download**: Download the ZIP file from GitHub and extract it
 2. **Git Clone**: 
    ```bash
-   git clone https://github.com/codergangganesh/DLCO-project_1-lee-AI-Bot.git
+   git clone https://github.com/codergangganesh/AI-BOT.git
    ```
 3. **GitHub CLI**:
    ```bash
-   gh repo clone codergangganesh/DLCO-project_1-lee-AI-Bot
+   gh repo clone codergangganesh/AI-BOT.git
    ```
 
 ### Usage
@@ -158,6 +158,10 @@ The Web Speech API has varying support across different browsers:
   <img src="logo.jpg" alt="Assistant Interface" width="300" />
 </p>
 
+<p align="center">
+  <img src="lee%20ai%20bot%20screen%20shot%20.png" alt="Lee AI Bot Screenshot" width="600" />
+</p>
+
 *The virtual assistant interface with voice activation button*
 
 ### Design Features
@@ -237,12 +241,6 @@ Project maintained by Team Vishnu
 - **Firefox**: May require additional configuration for speech recognition
 - **Safari**: Speech recognition is not supported
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
-
 ## 🙏 Acknowledgments
 
 - Thanks to Team Vishnu for creating this virtual assistant
@@ -251,7 +249,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-If you encounter any issues or have questions about this project, please [open an issue](https://github.com/codergangganesh/DLCO-project_1-lee-AI-Bot/issues) on GitHub.
+If you encounter any issues or have questions about this project, please [open an issue](https://github.com/codergangganesh/AI-BOT.git/issues) on GitHub.
 
 ---
 
