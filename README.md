@@ -1,14 +1,3 @@
-## 🎨 UI Preview
-
-<p align="center">
-  <img src="logo.jpg" alt="Assistant Interface" width="300" />
-</p>
-
-<p align="center">
-  <img src="lee%20ai%20bot%20screen%20shot%20.png" alt="Lee AI Bot Screenshot" width="600" />
-</p>
-
-*The virtual assistant interface with voice activation button*
 # Lee Chong Wei - Virtual Assistant
 
 <p align="center">
@@ -18,8 +7,6 @@
 <p align="center">
   <em>Your personal voice-enabled virtual assistant</em>
 </p>
-
-An interactive voice-enabled virtual assistant built with HTML, CSS, and JavaScript that responds to voice commands and provides spoken feedback.
 
 <p align="center">
   <a href="https://github.com/codergangganesh/AI-BOT.git">
