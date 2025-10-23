@@ -1,3 +1,14 @@
+## 🎨 UI Preview
+
+<p align="center">
+  <img src="logo.jpg" alt="Assistant Interface" width="300" />
+</p>
+
+<p align="center">
+  <img src="lee%20ai%20bot%20screen%20shot%20.png" alt="Lee AI Bot Screenshot" width="600" />
+</p>
+
+*The virtual assistant interface with voice activation button*
 # Lee Chong Wei - Virtual Assistant
 
 <p align="center">
@@ -26,14 +37,24 @@ An interactive voice-enabled virtual assistant built with HTML, CSS, and JavaScr
 
 Lee Chong Wei is a virtual assistant that leverages the Web Speech API to provide hands-free interaction. Users can speak commands to the assistant, which will respond verbally and perform various tasks like opening websites, telling time, and searching the web.
 
-This project demonstrates the power of web-based voice technologies and provides an accessible interface for users who prefer voice interaction over traditional input methods.
-
 ### Key Benefits
 
 - **Hands-Free Operation**: Control your computer without touching the keyboard or mouse
 - **Accessibility**: Useful for users with mobility or vision impairments
 - **Convenience**: Quick access to information and applications
-- **Learning Tool**: Demonstrates modern web APIs in action
+
+## 🎨 UI Preview
+
+<div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
+  <div style="text-align: center; margin: 10px;">
+    <img src="logo.jpg" alt="Assistant Logo" width="200" />
+    <p><strong>Assistant Logo</strong></p>
+  </div>
+  <div style="text-align: center; margin: 10px;">
+    <img src="lee%20ai%20bot%20screen%20shot%20.png" alt="Assistant Interface" width="300" />
+    <p><strong>Voice Assistant Interface</strong></p>
+  </div>
+</div>
 
 ## ✨ Features
 
@@ -43,63 +64,38 @@ This project demonstrates the power of web-based voice technologies and provides
 - **🌐 Website Launcher**: Opens popular websites (YouTube, Google, Facebook, Instagram)
 - **⚙️ Application Opener**: Launches system applications (Calculator, WhatsApp, Gmail)
 - **🔍 Web Search**: Searches Google for queries not directly recognized
-- **👋 Contextual Greetings**: Greets users differently based on time of day (Morning, Afternoon, Evening)
-- **💬 FRT Hi**: Fast Response Technology that provides instant greeting responses with personalized user interaction
+- **👋 Contextual Greetings**: Greets users differently based on time of day
+- **💬 FRT Hi**: Fast Response Technology for instant greeting responses
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- A modern web browser (Chrome recommended for best Web Speech API support)
-- Internet connection for CDN resources and web searches
-- Microphone access (browser will prompt for permission)
+- A modern web browser (Chrome recommended)
+- Internet connection
+- Microphone access
 
 ### Quick Start
 
 Simply open `index.html` in your browser to start using the assistant immediately!
 
-### Installation Options
+### Installation
 
-1. **Direct Download**: Download the ZIP file from GitHub and extract it
-2. **Git Clone**: 
-   ```bash
-   git clone https://github.com/codergangganesh/AI-BOT.git
-   ```
-3. **GitHub CLI**:
-   ```bash
-   gh repo clone codergangganesh/AI-BOT.git
-   ```
-
-### Usage
-
-1. Click the "Click here for talk to me" button
-2. Speak your command clearly when the microphone activates
-3. Listen to the verbal response from the assistant
-
-> **Note**: On first use, your browser may ask for microphone permission. Please allow access for the voice recognition to work.
+```bash
+git clone https://github.com/codergangganesh/AI-BOT.git
+```
 
 ## 🎤 Supported Voice Commands
 
 | Command | Action |
 |---------|--------|
 | "Hello" or "Hey Lee" | Greets the user |
-| "Who are you?" or "What is your name?" | Introduces the assistant |
-| "Open YouTube/Google/Facebook/Instagram" | Opens the respective website |
-| "Open Calculator/WhatsApp/Gmail" | Launches the respective application |
-| "What time is it?" or "Time" | Tells the current time |
-| "What date is it?" or "Date" | Tells the current date |
+| "Who are you?" | Introduces the assistant |
+| "Open YouTube/Google" | Opens the respective website |
+| "Open Calculator/WhatsApp" | Launches the respective application |
+| "What time is it?" | Tells the current time |
+| "What date is it?" | Tells the current date |
 | Any other phrase | Performs a Google search |
-
-### Example Interactions
-
-- User: "Hey Lee, what time is it?"
-- Lee: "It's 3:45 PM"
-
-- User: "Lee, open YouTube"
-- Lee: "Opening YouTube..." (Opens YouTube in a new tab)
-
-- User: "Who are you?"
-- Lee: "My name is Lee Chong Wei, a virtual assistant created by Team Vishnu Sir"
 
 ## 🛠️ Technical Stack
 
@@ -108,35 +104,7 @@ Simply open `index.html` in your browser to start using the assistant immediatel
 - **Fonts**: Google Fonts ('Protest Guerrilla')
 - **Graphics**: Custom logo and animated voice indicator
 
-### Web Technologies Used
-
-- **HTML5 Semantic Elements**: For structuring the interface
-- **CSS3 Flexbox**: For responsive layout design
-- **CSS3 Animations**: For interactive button effects
-- **JavaScript ES6+**: For modern syntax and functionality
-- **Web Speech API**: For voice recognition and synthesis
-
-## 📁 Project Structure
-
-```
-DLCO project_1(lee AI Bot)/
-├── index.html          # Main HTML structure
-├── style.css           # Styling and animations
-├── script.js           # Core functionality and logic
-├── logo.jpg            # Assistant logo
-├── voice.gif           # Animated voice indicator
-└── mic.svg             # Microphone icon
-```
-
-### Key Components
-
-- **index.html**: The main interface with the assistant's visual elements
-- **style.css**: Responsive design with gradient buttons and animations
-- **script.js**: Implements the Web Speech API and command processing logic
-
 ## 💻 Browser Compatibility
-
-The Web Speech API has varying support across different browsers:
 
 | Browser | Speech Recognition | Speech Synthesis |
 |---------|-------------------|------------------|
@@ -145,51 +113,7 @@ The Web Speech API has varying support across different browsers:
 | Safari  | ❌ Not Supported   | ✅ Supported      |
 | Edge    | ✅ Supported       | ✅ Supported      |
 
-> **Note**: For the best experience, use Google Chrome as it has the most comprehensive support for the Web Speech API.
-
-### Mobile Compatibility
-
-- **Android**: Chrome Mobile fully supports both speech recognition and synthesis
-- **iOS**: Safari on iOS has limited support; Chrome recommended
-
-## 🎨 UI Preview
-
-<p align="center">
-  <img src="logo.jpg" alt="Assistant Interface" width="300" />
-</p>
-
-<p align="center">
-  <img src="lee%20ai%20bot%20screen%20shot%20.png" alt="Lee AI Bot Screenshot" width="600" />
-</p>
-
-*The virtual assistant interface with voice activation button*
-
-### Design Features
-
-- Dark theme interface for reduced eye strain
-- Gradient button with hover effects
-- Animated voice indicator during speech recognition
-- Responsive layout that works on different screen sizes
-
-## ⚙️ How It Works
-
-1. **Initialization**: On page load, the assistant greets the user based on the time of day
-2. **Voice Input**: Clicking the button activates the microphone for voice input
-3. **Command Processing**: The assistant analyzes the spoken command
-4. **Action Execution**: Based on the command, it performs the appropriate action
-5. **Verbal Response**: The assistant provides spoken feedback to the user
-
-### Technical Flow
-
-The application uses two main components of the Web Speech API:
-- **SpeechRecognition**: Converts spoken words into text
-- **SpeechSynthesis**: Converts text into spoken words
-
-When a command is received, the system:
-1. Normalizes the input text to lowercase
-2. Matches against predefined command patterns
-3. Executes the corresponding action
-4. Generates a verbal response using text-to-speech
+> **Note**: For the best experience, use Google Chrome.
 
 ## 🤝 Contributing
 
@@ -201,60 +125,20 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-### Areas for Improvement
-
-- Add more voice commands
-- Implement natural language processing
-- Improve error handling
-- Add multilingual support
-- Enhance UI/UX design
-
-Please ensure your code follows the existing style and includes appropriate comments.
-
 ## 👨‍💻 Author
 
 **Mannam Ganesh Babu** - *Initial Work* - [codergangganesh](https://github.com/codergangganesh)
 
 Project maintained by Team Vishnu
 
-## ❓ Troubleshooting
+## 📄 License
 
-### Common Issues
-
-1. **Microphone not working**:
-   - Check browser permissions for microphone access
-   - Ensure your microphone is properly connected
-   - Try refreshing the page
-
-2. **Voice recognition not responding**:
-   - Make sure you're using a supported browser (Chrome recommended)
-   - Speak clearly and at a moderate pace
-   - Check your internet connection
-
-3. **Voice synthesis not working**:
-   - Verify your system audio is functioning
-   - Check that your browser supports SpeechSynthesis
-
-### Browser-Specific Solutions
-
-- **Chrome**: Go to Settings > Privacy and security > Site Settings > Microphone
-- **Firefox**: May require additional configuration for speech recognition
-- **Safari**: Speech recognition is not supported
-
-## 🙏 Acknowledgments
-
-- Thanks to Team Vishnu for creating this virtual assistant
-- Inspired by modern voice assistant technologies
-- Powered by Web Speech API
-
-## 📞 Support
-
-If you encounter any issues or have questions about this project, please [open an issue](https://github.com/codergangganesh/AI-BOT.git/issues) on GitHub.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 ⭐ **If you find this project helpful, please consider giving it a star!**
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/codergangganesh">Mannam Ganesh Babu</a> and Team Vishnu
+  Made with ❤️ by <a href="https://github.com/codergangganesh">Mannam Ganesh Babu</a>
 </p>
